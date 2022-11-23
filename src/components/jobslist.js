@@ -43,7 +43,7 @@ const JobsList = () => {
             <th scope="col"><FormattedMessage id="Company"></FormattedMessage></th>
             <th scope="col"><FormattedMessage id="Salary"></FormattedMessage></th>
             <th scope="col"><FormattedMessage id="City"></FormattedMessage></th>
-            <th scope="col"><FormattedMessage id="Publication date"></FormattedMessage></th>
+            <th scope="col"><FormattedMessage id="PublicationDate"></FormattedMessage></th>
             <th scope="col"><FormattedMessage id="Views"></FormattedMessage></th>
           </tr>
         </thead>
@@ -57,5 +57,6 @@ const JobsList = () => {
     </div>
   );
 };
+
 
 export default JobsList;
